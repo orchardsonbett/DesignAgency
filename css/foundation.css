@@ -387,9 +387,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
-  -ms-interpolation-mode: bicubic;
-  display: inline-block;
-  vertical-align: middle; }
+  display: inline-block;}
 
 textarea {
   height: auto;
@@ -634,7 +632,8 @@ button {
   margin-left: 83.33333%; }
 
 .small-12 {
-  width: 100%; }
+  width: 90%;
+display: inline-block;}
 
 .small-offset-11 {
   margin-left: 91.66667%; }
@@ -857,7 +856,8 @@ button {
   .medium-offset-10 {
     margin-left: 83.33333%; }
   .medium-12 {
-    width: 100%; }
+    width: 100%;
+    float: right;}
   .medium-offset-11 {
     margin-left: 91.66667%; }
   .medium-up-1 > .column, .medium-up-1 > .columns {
